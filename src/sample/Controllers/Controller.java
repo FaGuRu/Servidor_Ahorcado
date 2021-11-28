@@ -26,8 +26,8 @@ public class Controller implements Observer {
     ServerSocket serverSocket = null;
     private final int PORT = 3001;
     private ArrayList<Nodo> poolSocket = new ArrayList<>();
-    private String[] diccionario = {"ABEJA","OSO", "BANANO","PLATANO", "PERRO",  "LOBO","MOSCA","PINGUINO", "ELEFANTE",
-            "GATO", "SAPO", "JIRAFA", "COCODRILO","TORTUGA","CABALLO", "LEON", "TIGRE"};
+    private String[] diccionario = {"C++","C#", "Java","Python", "Ruby",  "Javascript","PHP","Swift", "Kotlin",
+            "SQL", "R", "Typescript"};
     private char[] palabra_secreta;
 
     @FXML
